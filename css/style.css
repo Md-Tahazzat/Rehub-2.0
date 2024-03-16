@@ -300,6 +300,10 @@ button:focus {
        ---------------- 
    */
 
+.large-margin {
+  margin-top: 11.2rem;
+}
+
 .mobi {
   display: none !important;
 }
@@ -320,6 +324,11 @@ button:focus {
 
 .section-break {
   margin: 5.1rem 0;
+  border-bottom: 1px solid #ccddfb;
+}
+
+.blog-break {
+  margin: 1rem 0;
   border-bottom: 1px solid #ccddfb;
 }
 
@@ -605,10 +614,6 @@ html {
 /* hero section ends */
 
 /* recent blogs section starts */
-.top-recent-blogs-wrap {
-  margin-top: 11.2rem;
-}
-
 .top-recent-blogs-inner .title-container {
   margin-bottom: 8rem;
 }
@@ -673,9 +678,6 @@ html {
 /* recent blogs section ends */
 
 /* top medical section starts */
-.top-medical-experts-wrap {
-  margin-top: 11.2rem;
-}
 .top-medical-expert-inner h2 {
   text-align: center;
   margin-bottom: 2rem;
@@ -727,7 +729,6 @@ html {
 
 /* Local treatment center section starts */
 .treatment-centers-wrap {
-  margin-top: 11.2rem;
   padding: 6rem 0;
   background-color: var(--light-gray-blue);
 }
@@ -770,7 +771,6 @@ html {
 
 /* common QNA sectin starts */
 .common-QNA-wrap {
-  margin-top: 11.2rem;
   background-color: var(--dark-navy-blue);
 }
 
@@ -874,9 +874,250 @@ html {
 
 /* footer section ends */
 
+/* Blog page style starts */
+
+.btn-sqr {
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  border: 1px solid #ccddfb;
+  color: var(--pink-red);
+}
+
+.btn-sqr-sm {
+  padding: 0.8rem 1.6rem;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border: 1px solid #ccddfb;
+  color: var(--pink-red);
+}
+
+.bg-transparent {
+  background-color: transparent;
+}
+
+/* common blog starts */
+.blog {
+  border-radius: 1rem;
+  overflow: hidden;
+  border: 1px solid #ccddfb;
+  height: auto;
+  /* max-height: 42rem; */
+}
+
+.blog .blog-content {
+  padding: 1.3rem;
+}
+
+.large-card .blog-content {
+  padding: 2rem;
+}
+
+.blog .blog-info {
+  margin-bottom: 1rem;
+}
+
+.blog .des {
+  margin-bottom: 2rem;
+}
+
+.blog .blog-info div {
+  width: 27%;
+}
+
+.blog .blog-info h3 {
+  width: 70%;
+}
+
+.blog .reading-min {
+  background-color: var(--pink-red);
+  padding: 0.2rem 1.6rem;
+  border-radius: 10rem;
+  color: var(--white);
+}
+/* common blog ends */
+
+/* blog banner section starts */
+.page-banner-wrap {
+  height: 400px;
+  width: 100%;
+  position: relative;
+}
+
+.page-banner-wrap .common-wrap {
+  -webkit-box-align: end;
+  -moz-box-align: end;
+  -ms-flex-align: end;
+  -webkit-align-items: flex-end;
+  align-items: flex-end;
+  height: 100%;
+}
+
+.page-banner-content {
+  z-index: 2;
+  padding-bottom: 3rem;
+}
+
+.page-banner-content h2 {
+  color: var(--white);
+  max-width: 60%;
+  margin-bottom: 2rem;
+}
+
+.page-banner-content p {
+  color: var(--white);
+  max-width: 70%;
+  margin-bottom: 1.6rem;
+}
+
+.page-banner-wrap .banner-thum {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+}
+
+.page-banner-wrap picture {
+  width: 100%;
+  height: 100%;
+}
+
+.page-banner-wrap img {
+  width: 100%;
+  height: 100%;
+}
+
+.page-banner-wrap .bg-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.511);
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+/* blogs banner ends */
+
+/* blog list section starts */
+.blogs-list-wrap .common-wrap {
+  align-items: -webkit-start;
+  align-items: -moz-start;
+  align-items: -ms-start;
+  align-items: start;
+}
+
+.blogs-list-wrap .left {
+  width: 65%;
+  align-items: -webkit-start;
+  align-items: -moz-start;
+  align-items: -ms-start;
+  align-items: start;
+}
+
+.blogs-list-wrap .left .blog {
+  width: 48.33%;
+  margin-bottom: 3%;
+}
+
+.blogs-list-wrap .right {
+  width: 35%;
+}
+
+.blogs-list-wrap .right .blog-thum {
+  display: none;
+}
+
+.blogs-list-wrap .right .blog {
+  border: none;
+}
+
+.blogs-list-wrap .right .blog-content {
+  padding: 0;
+  padding-bottom: 2rem;
+}
+
+.blogs-list-wrap .right .blog-thum {
+  display: none;
+}
+
+.blogs-list-wrap .blog-break:last-child {
+  display: none;
+}
+
+.blogs-list-wrap .des {
+  margin-bottom: 1rem;
+}
+
+.blogs-list-wrap .title {
+  margin-bottom: 1rem;
+}
+/* blog list section ends */
+
+/* more category blog section starts */
+.more-category-blog-wrap .section-title {
+  margin-bottom: 4%;
+}
+
+.more-category-blogs {
+  align-items: -webkit-start;
+  align-items: -moz-start;
+  align-items: -ms-start;
+  align-items: start;
+}
+
+.more-category-blogs .blog {
+  width: 32.33%;
+  margin-bottom: 2%;
+}
+/* more category blog section ends */
+
+/* Single blog page style starts */
+.single-blog.common-wrap {
+  align-items: center;
+  justify-content: start;
+}
+
+.single-blog .page-banner-content {
+  width: 100%;
+}
+
+.blog-content-wrap .blog-title {
+  margin-bottom: 4rem;
+}
+
+.blog-content-wrap p {
+  margin-bottom: 3rem;
+}
+
+.blog-content-wrap .blog-thum-img {
+  margin-bottom: 4rem;
+  width: 100%;
+  height: 100%;
+  max-height: 50rem;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.blog-content-wrap picture,
+.blog-content-wrap img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.blog-content-wrap {
+  margin-bottom: 3rem;
+}
+/* Single blog page style ends */
+
 /* ===============
           Responsive design starts
-          Tablet device upto 1024px
+          Tablet device upto 1023px
                             ==============*/
 
 @media screen and (max-width: 1023px) {
@@ -884,6 +1125,10 @@ html {
   Custom utility classes
        ---------------- 
    */
+
+  .large-margin {
+    margin-top: 8.2rem;
+  }
 
   .common-gap {
     -webkit-gap: 2rem;
@@ -950,10 +1195,6 @@ html {
 
   /* hero section ends */
   /* recent blogs section starts */
-  .top-recent-blogs-wrap {
-    margin-top: 8.2rem;
-  }
-
   .top-recent-blogs-inner .title-container {
     margin-bottom: 6rem;
   }
@@ -988,10 +1229,6 @@ html {
   /* recent blogs section starts */
 
   /* top medical section starts */
-  .top-medical-experts-wrap {
-    margin-top: 8.2rem;
-  }
-
   .top-medical-expert-inner .title-des {
     text-align: center;
     margin-bottom: 5rem;
@@ -1013,17 +1250,12 @@ html {
 
   /* Local treatment center section starts */
   .treatment-centers-wrap {
-    margin-top: 8.2rem;
     padding: 4rem 0;
   }
 
   /* Local treatment center section ends */
 
   /* common QNA sectin starts */
-  .common-QNA-wrap {
-    margin-top: 8.2rem;
-  }
-
   .common-QNA-inner {
     -webkit-flex-direction: column;
     -moz-flex-direction: column;
@@ -1078,18 +1310,46 @@ html {
     display: none;
   }
 
+  /* Blog page style starts */
+  .btn-sqr-sm {
+    padding: 0.6rem 1.2rem;
+    font-size: 1.1rem;
+  }
+
+  .large-card .blog-content {
+    padding: 1rem;
+  }
+
+  .blog .blog-info div {
+    width: 30%;
+  }
+
+  .blog .reading-min {
+    padding: 0.2rem 1rem;
+  }
+
+  .more-category-blog-wrap .des {
+    margin-bottom: 1rem;
+  }
+
+  /* Blog page style ends */
+
   /* Tablet device style ends */
 }
 
 /* ===============
-         large mobile device upto 768px
+         large mobile device upto 767px
                             ==============*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   /*
   Custom utility classes
        ---------------- 
    */
+
+  .large-margin {
+    margin-top: 6.2rem;
+  }
 
   h1 {
     font-size: 4rem;
@@ -1189,6 +1449,7 @@ html {
     max-width: 50rem;
   }
   /* top recent blog section ends */
+
   /* top mdeical section starts */
 
   .top-medical-expert-inner .title-des {
@@ -1272,6 +1533,72 @@ html {
   }
 
   /* footer section ends */
+
+  /* Blog page style starts */
+
+  .blogs-list-wrap .common-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-gap: 0;
+    -moz-gap: 0;
+    -ms-gap: 0;
+    gap: 0;
+  }
+
+  .blogs-list-wrap .right {
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .blogs-list-wrap .blog {
+    width: 100%;
+    max-width: 50rem;
+    margin: 2.5% auto;
+  }
+
+  .blogs-list-wrap .blog-content {
+    width: 100%;
+    padding: 1.6rem 3.5%;
+  }
+
+  .blogs-list-wrap .left {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-gap: 0;
+    -moz-gap: 0;
+    -ms-gap: 0;
+    gap: 0;
+  }
+
+  .blogs-list-wrap .left .blog,
+  .more-category-blog-wrap .blog {
+    width: 100%;
+    max-width: 50rem;
+    margin: 2.5% auto;
+  }
+
+  .blogs-list-wrap .right .blog-thum {
+    display: block;
+  }
+
+  .blogs-list-wrap .right .blog {
+    border: 1px solid #ccddfb;
+    height: auto;
+    padding-bottom: 2rem;
+  }
+
+  .blogs-list-wrap .right .blog-content {
+    padding: 1.6rem 3.5%;
+  }
+
+  /* Blog page style starts */
 }
 
 /*==========
@@ -1283,6 +1610,10 @@ html {
   Custom utility classes
        ---------------- 
    */
+
+  .large-margin {
+    margin-top: 4.2rem;
+  }
 
   .common-wrap {
     padding: 0 1rem;
@@ -1374,3 +1705,63 @@ html {
     font-size: 1.4rem;
   }
 }
+
+/* contact page style starts */
+.page-banner-wrap .page-title {
+  color: var(--white);
+  text-align: center;
+}
+.page-banner-wrap .page-banner-content {
+  width: 100%;
+  height: 100%;
+}
+
+.contact-form-inner {
+  width: 100%;
+  max-width: 60rem;
+  margin: 0 auto;
+  background: rgb(214, 214, 214);
+  padding: 5%;
+  border-radius: 1.6rem;
+}
+
+/* contact form starts */
+.contact-form-wrap form {
+  width: 100%;
+}
+
+.contact-form-wrap h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.contact-form-wrap input,
+.contact-form-wrap textarea {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  resize: none;
+  font-family: var(--ff-inter-regular);
+}
+
+.contact-form-wrap button {
+  padding: 1rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  background-color: var(--dark-navy-blue);
+  color: white;
+  border-radius: 0.5rem;
+  transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  margin-top: 1rem;
+}
+.contact-form-wrap button:hover {
+  background-color: #112147;
+}
+
+/* contact form ends */

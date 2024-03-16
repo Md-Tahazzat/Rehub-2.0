@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rehub | Contact Us</title>
+    <!-- style sheet -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Font awesome CDN -->
+    <script src="https://kit.fontawesome.com/7a263e28c3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <main class="main-wrap">
+
+        <!-- page banner section starts -->
+        <section class="page-banner-wrap">
+            <div class="bg-overlay"></div>
+            <div class="banner-thum">
+                <picture>
+                    <source srcset="./img/contact-page-banner-mobile.webp" media="(max-width:767px)">
+                    <source srcset="./img/contact-page-banner-tablet.webp"
+                        media="(min-width:768px) and (max-width:1023px)">
+                    <source srcset="./img/contact-page-banner.webp" media="(min-width:1024px)">
+                    <img src="./img/contact-page-banner.webp" alt="blog thumnail">
+                </picture>
+            </div>
+            <div class="common-wrap flex">
+                <div class="page-banner-content flex flex-center">
+                    <h1 class="page-title">Contact Us</h1>
+                </div>
+            </div>
+        </section>
+        <!-- page banner section ends -->
+
+        <!-- contact form starts -->
+        <section class="contact-form-wrap large-margin">
+            <div class="common-wrap">
+                <div class="contact-form-inner">
+                    <h2>Contact Us</h2>
+                    <form id="contact-form" class="contact-form flex flex-col" method="post" action="">
+                        <input type="hidden" name="action" value="submit_contact_form">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+
+        </section>
+        <!-- contact form ends -->
+
+
+
+
+
+    </main>
+    <footer class="footer-wrap fix-nav-remover">
+
+        <!-- bottom navbar starts -->
+        <div id="footer-nav" class="common-wrap flex flex-vertical-align space-between">
+            <div class="custom_site-logo">
+                <h3>
+                    Rehub 2.0
+                </h3>
+
+            </div>
+            <ul class="flex flex-vertical-align space-between common-gap">
+                <li>
+                    <a class="nav-link" href="/index.html">Home</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="/blogs.html">Blog</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+            </ul>
+            <div class="des flex flex-vertical-align">
+                <p>
+                    Treatment providers are waiting for your call: <br>
+                    Calls are forwarded to these paid ardevtisers
+                </p>
+                <h3 class="flex flex-vertical-align">
+                    <svg class="phone-icon" width="28" height="28" viewBox="0 0 28 28" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M12.6653 15.3347C11.3003 13.9697 10.2713 12.4413 9.58767 10.8908C9.44301 10.563 9.52817 10.1792 9.78134 9.926L10.7368 8.97167C11.5197 8.18883 11.5197 7.08167 10.836 6.398L9.46634 5.02833C8.55517 4.11717 7.07817 4.11717 6.16701 5.02833L5.40634 5.789C4.54184 6.6535 4.18134 7.90067 4.41467 9.13733C4.99101 12.1858 6.76201 15.5237 9.61917 18.3808C12.4763 21.238 15.8142 23.009 18.8627 23.5853C20.0993 23.8187 21.3465 23.4582 22.211 22.5937L22.9705 21.8342C23.8817 20.923 23.8817 19.446 22.9705 18.5348L21.602 17.1663C20.9183 16.4827 19.81 16.4827 19.1275 17.1663L18.074 18.221C17.8208 18.4742 17.437 18.5593 17.1092 18.4147C15.5587 17.7298 14.0303 16.6997 12.6653 15.3347Z"
+                            stroke="#1066FF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+
+                    (888) 349-3392
+                </h3>
+            </div>
+        </div>
+        <!-- bottom navbar ends -->
+
+        <!-- section break starts -->
+        <div class="common-wrap">
+            <hr class="section-break">
+        </div>
+        <!-- section break ends -->
+
+        <!-- bottom footer starts -->
+        <div class="common-wrap">
+            <div class="footer-inner flex flex-align-between">
+                <div>
+                    <p>&copy; 2024 Rehub2.0. All right reserved.</p>
+                </div>
+                <ul class="privacy-policy-links flex flex-vertical-align">
+                    <li>
+                        <a href="#">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="#">Terms and Conditions</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- bottom footer ends -->
+    </footer>
+
+
+    <!-- script files -->
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
